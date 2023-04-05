@@ -1,36 +1,25 @@
 <template>
-  <v-footer
-      absolute
-  >
-    <v-col>
-      <v-btn
-          v-for="link in links"
-          :key="link"
-          text
-          rounded
-          class="my-2"
-      >
-        {{ link }}
-      </v-btn>
-    </v-col>
+  <v-footer class="footer">
+    <Menu/>
+    <ContactsData/>
   </v-footer>
 </template>
 
 <script>
+import Menu from "@/components/Menu.vue";
+import ContactsData from "@/components/ContactsData.vue";
+
 export default {
   name: "Footer",
-  data: () => ({
-    links: [
-      'Каталог',
-      'Доставка',
-      'Оплата',
-      'Контакты',
-      'О компании',
-    ],
-  }),
+  components: {ContactsData, Menu},
 }
 </script>
 
 <style scoped>
-
+.footer {
+    display: flex;
+    justify-content: space-evenly;
+    min-height: 96px;
+    background: #ECEAEA;
+}
 </style>

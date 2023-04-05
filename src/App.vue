@@ -1,8 +1,10 @@
 <template>
   <v-app id="app">
     <Navbar/>
-    <router-view/>
-    <!--        <Footer/>-->
+    <div class="routers-container">
+      <router-view/>
+    </div>
+    <Footer/>
   </v-app>
 </template>
 
@@ -12,16 +14,11 @@ export default {
     this.$store.commit('initialiseStore');
   }
 }
-
 </script>
 
 <style>
-#app {
-    font-family: 'Merriweather', serif;
-    /*-webkit-font-smoothing: antialiased;*/
-    /*-moz-osx-font-smoothing: grayscale;*/
-    /*text-align: center;*/
-    /*color: #2c3e50;*/
+.routers-container {
+    min-height: 75vh;
 }
 </style>
 

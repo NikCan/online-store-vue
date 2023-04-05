@@ -1,19 +1,3 @@
-# online-store-vue
+This is the page layout of the online store
 
-## Project setup
-```
-yarn install
-```
-
-### Compiles and hot-reloads for development
-```
-yarn serve
-```
-
-### Compiles and minifies for production
-```
-yarn build
-```
-
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).
+Stack: JS, Vue2, Vuex, Vue-Router, Vuetify
