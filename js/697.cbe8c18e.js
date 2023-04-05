@@ -1,0 +1,2 @@
+"use strict";(self["webpackChunkonline_store_vue"]=self["webpackChunkonline_store_vue"]||[]).push([[697],{6697:function(n,e,t){t.r(e),t.d(e,{default:function(){return a}});var u=function(){var n=this,e=n._self._c;return e("div",[n._v(" Contacts ")])},l=[],s={name:"Contacts"},r=s,o=t(1001),c=(0,o.Z)(r,u,l,!1,null,null,null),a=c.exports}}]);
+//# sourceMappingURL=697.cbe8c18e.js.map
